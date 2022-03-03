@@ -1,0 +1,155 @@
+body{
+	font-family: arial,Aparajita, sans serif;
+	font-size: 16px;
+	margin:0;
+	padding:0;
+}
+/*Global*/
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+ul{
+ 	margin:0;
+ 	padding:0;
+ }
+ .button{
+ 	padding: 5px;
+ 	margin:5;
+ 	color: #fff;
+ 	background: orange;
+ 	border:0;
+ }
+
+ .dark{
+ 	color: #fff;
+ 	background: #353434;
+ 	padding: 15px;
+ 	margin-top: 10px;
+ 	margin-bottom: 10px;
+ }
+header{
+	background-color: #353434;
+	color: #fff;
+	min-height: 70px;
+	border-bottom: 3px solid orange;
+}
+
+header a{
+	text-decoration: none;
+	color:#fff;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+ header li{
+ 	display: inline;
+ 	padding:0 20px 0 20px;
+ 	float: left;
+ }
+ header #logo h1{
+ 	margin-top: 10px;
+ }
+
+ header #logo{
+ 	float: left;
+ }
+ header nav{
+ 	float: right;
+ 	margin-top: 20px;
+ }
+
+ header .highlight, header .current a{
+ 	color: orange;
+ 	font-weight: bold;
+ }
+
+ header a:hover{
+ 	color: #cccccc;
+ 	font-weight: bold;
+ }
+#showcase{
+	min-height: 400px;
+	background: url('../image/showcase.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: rgb(253, 174, 4);
+	text-align: center;
+}
+
+#showcase h1{
+	font-size: 55px;
+	margin: 100px 0 10px 0;
+}
+#showcase p{
+	font-size: 20px;
+}
+#subscribe{
+	background: #353434;
+	color:#fff;
+	border-top:orange solid;
+	border-bottom: orange solid;
+}
+#newsletter{
+	float: left;
+}
+#subscribe form{
+	float: right;
+	margin: 0;
+	padding-top: 20px;
+}
+#subscribe input{
+	width: 300px;
+	height: 20px;
+}
+#boxes{
+	padding-top: 30px;
+}
+#boxes .box{
+	float: left;
+	width: 30%;
+	padding:10px;
+	text-align: center;
+}
+#boxes .box img{
+	width: 90px;
+}
+
+article#main-col{
+	float: left;
+	width:65%;
+}
+aside#sidebar{
+	float: right;
+	width: 30%;
+	margin-top: 10px;
+}
+aside#sidebar .quote input, aside#sidebar .quote textarea{
+	width: 90%;
+	margin: 5%;
+}
+
+ul#service li{
+	list-style: none;
+	padding:20px;
+	border:#cccccc solid 1px;
+	margin-bottom: 5px;
+	background: #e6e6e6;
+}
+
+
+#footer{
+	padding: 20px;
+	margin-top: 20px;
+	color: #ffffff;
+	background: #353434;
+	text-align: center;
+}
+
+@media (max-width: 768px){
+	
+}
+
+
